@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\code\C_and_C++\data_structure\Experiments\Lab2
+CMAKE_SOURCE_DIR = D:\code\DataStructure-Lab\Lab2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\code\C_and_C++\data_structure\Experiments\Lab2\build
+CMAKE_BINARY_DIR = D:\code\DataStructure-Lab\Lab2\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d D:\code\C_and_C++\data_structure\Experiments\Lab2\build && $(CMAKE_COMMAND) -E cmake_progress_start D:\code\C_and_C++\data_structure\Experiments\Lab2\build\CMakeFiles D:\code\C_and_C++\data_structure\Experiments\Lab2\build\src\2_Expression\\CMakeFiles\progress.marks
-	cd /d D:\code\C_and_C++\data_structure\Experiments\Lab2\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/2_Expression/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\C_and_C++\data_structure\Experiments\Lab2\build\CMakeFiles 0
+	cd /d D:\code\DataStructure-Lab\Lab2\build && $(CMAKE_COMMAND) -E cmake_progress_start D:\code\DataStructure-Lab\Lab2\build\CMakeFiles D:\code\DataStructure-Lab\Lab2\build\src\2_Expression\\CMakeFiles\progress.marks
+	cd /d D:\code\DataStructure-Lab\Lab2\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/2_Expression/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\DataStructure-Lab\Lab2\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d D:\code\C_and_C++\data_structure\Experiments\Lab2\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/2_Expression/clean
+	cd /d D:\code\DataStructure-Lab\Lab2\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/2_Expression/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,22 +102,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d D:\code\C_and_C++\data_structure\Experiments\Lab2\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/2_Expression/preinstall
+	cd /d D:\code\DataStructure-Lab\Lab2\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/2_Expression/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d D:\code\C_and_C++\data_structure\Experiments\Lab2\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/2_Expression/preinstall
+	cd /d D:\code\DataStructure-Lab\Lab2\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/2_Expression/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d D:\code\C_and_C++\data_structure\Experiments\Lab2\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d D:\code\DataStructure-Lab\Lab2\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/2_Expression/CMakeFiles/2_Expression.dir/rule:
-	cd /d D:\code\C_and_C++\data_structure\Experiments\Lab2\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/2_Expression/CMakeFiles/2_Expression.dir/rule
+	cd /d D:\code\DataStructure-Lab\Lab2\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/2_Expression/CMakeFiles/2_Expression.dir/rule
 .PHONY : src/2_Expression/CMakeFiles/2_Expression.dir/rule
 
 # Convenience name for target.
@@ -126,7 +126,7 @@ src/2_Expression/CMakeFiles/2_Expression.dir/rule:
 
 # fast build rule for target.
 2_Expression/fast:
-	cd /d D:\code\C_and_C++\data_structure\Experiments\Lab2\build && $(MAKE) $(MAKESILENT) -f src\2_Expression\CMakeFiles\2_Expression.dir\build.make src/2_Expression/CMakeFiles/2_Expression.dir/build
+	cd /d D:\code\DataStructure-Lab\Lab2\build && $(MAKE) $(MAKESILENT) -f src\2_Expression\CMakeFiles\2_Expression.dir\build.make src/2_Expression/CMakeFiles/2_Expression.dir/build
 .PHONY : 2_Expression/fast
 
 calculator.obj: calculator.cpp.obj
@@ -134,7 +134,7 @@ calculator.obj: calculator.cpp.obj
 
 # target to build an object file
 calculator.cpp.obj:
-	cd /d D:\code\C_and_C++\data_structure\Experiments\Lab2\build && $(MAKE) $(MAKESILENT) -f src\2_Expression\CMakeFiles\2_Expression.dir\build.make src/2_Expression/CMakeFiles/2_Expression.dir/calculator.cpp.obj
+	cd /d D:\code\DataStructure-Lab\Lab2\build && $(MAKE) $(MAKESILENT) -f src\2_Expression\CMakeFiles\2_Expression.dir\build.make src/2_Expression/CMakeFiles/2_Expression.dir/calculator.cpp.obj
 .PHONY : calculator.cpp.obj
 
 calculator.i: calculator.cpp.i
@@ -142,7 +142,7 @@ calculator.i: calculator.cpp.i
 
 # target to preprocess a source file
 calculator.cpp.i:
-	cd /d D:\code\C_and_C++\data_structure\Experiments\Lab2\build && $(MAKE) $(MAKESILENT) -f src\2_Expression\CMakeFiles\2_Expression.dir\build.make src/2_Expression/CMakeFiles/2_Expression.dir/calculator.cpp.i
+	cd /d D:\code\DataStructure-Lab\Lab2\build && $(MAKE) $(MAKESILENT) -f src\2_Expression\CMakeFiles\2_Expression.dir\build.make src/2_Expression/CMakeFiles/2_Expression.dir/calculator.cpp.i
 .PHONY : calculator.cpp.i
 
 calculator.s: calculator.cpp.s
@@ -150,7 +150,7 @@ calculator.s: calculator.cpp.s
 
 # target to generate assembly for a file
 calculator.cpp.s:
-	cd /d D:\code\C_and_C++\data_structure\Experiments\Lab2\build && $(MAKE) $(MAKESILENT) -f src\2_Expression\CMakeFiles\2_Expression.dir\build.make src/2_Expression/CMakeFiles/2_Expression.dir/calculator.cpp.s
+	cd /d D:\code\DataStructure-Lab\Lab2\build && $(MAKE) $(MAKESILENT) -f src\2_Expression\CMakeFiles\2_Expression.dir\build.make src/2_Expression/CMakeFiles/2_Expression.dir/calculator.cpp.s
 .PHONY : calculator.cpp.s
 
 main.obj: main.cpp.obj
@@ -158,7 +158,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	cd /d D:\code\C_and_C++\data_structure\Experiments\Lab2\build && $(MAKE) $(MAKESILENT) -f src\2_Expression\CMakeFiles\2_Expression.dir\build.make src/2_Expression/CMakeFiles/2_Expression.dir/main.cpp.obj
+	cd /d D:\code\DataStructure-Lab\Lab2\build && $(MAKE) $(MAKESILENT) -f src\2_Expression\CMakeFiles\2_Expression.dir\build.make src/2_Expression/CMakeFiles/2_Expression.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -166,7 +166,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /d D:\code\C_and_C++\data_structure\Experiments\Lab2\build && $(MAKE) $(MAKESILENT) -f src\2_Expression\CMakeFiles\2_Expression.dir\build.make src/2_Expression/CMakeFiles/2_Expression.dir/main.cpp.i
+	cd /d D:\code\DataStructure-Lab\Lab2\build && $(MAKE) $(MAKESILENT) -f src\2_Expression\CMakeFiles\2_Expression.dir\build.make src/2_Expression/CMakeFiles/2_Expression.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -174,7 +174,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /d D:\code\C_and_C++\data_structure\Experiments\Lab2\build && $(MAKE) $(MAKESILENT) -f src\2_Expression\CMakeFiles\2_Expression.dir\build.make src/2_Expression/CMakeFiles/2_Expression.dir/main.cpp.s
+	cd /d D:\code\DataStructure-Lab\Lab2\build && $(MAKE) $(MAKESILENT) -f src\2_Expression\CMakeFiles\2_Expression.dir\build.make src/2_Expression/CMakeFiles/2_Expression.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -203,6 +203,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d D:\code\C_and_C++\data_structure\Experiments\Lab2\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d D:\code\DataStructure-Lab\Lab2\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

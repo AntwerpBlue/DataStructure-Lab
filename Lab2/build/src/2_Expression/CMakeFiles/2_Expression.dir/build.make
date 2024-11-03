@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\code\C_and_C++\data_structure\Experiments\Lab2
+CMAKE_SOURCE_DIR = D:\code\DataStructure-Lab\Lab2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\code\C_and_C++\data_structure\Experiments\Lab2\build
+CMAKE_BINARY_DIR = D:\code\DataStructure-Lab\Lab2\build
 
 # Include any dependencies generated for this target.
 include src/2_Expression/CMakeFiles/2_Expression.dir/depend.make
@@ -73,33 +73,33 @@ src/2_Expression/CMakeFiles/2_Expression.dir/codegen:
 
 src/2_Expression/CMakeFiles/2_Expression.dir/calculator.cpp.obj: src/2_Expression/CMakeFiles/2_Expression.dir/flags.make
 src/2_Expression/CMakeFiles/2_Expression.dir/calculator.cpp.obj: src/2_Expression/CMakeFiles/2_Expression.dir/includes_CXX.rsp
-src/2_Expression/CMakeFiles/2_Expression.dir/calculator.cpp.obj: D:/code/C_and_C++/data_structure/Experiments/Lab2/src/2_Expression/calculator.cpp
+src/2_Expression/CMakeFiles/2_Expression.dir/calculator.cpp.obj: D:/code/DataStructure-Lab/Lab2/src/2_Expression/calculator.cpp
 src/2_Expression/CMakeFiles/2_Expression.dir/calculator.cpp.obj: src/2_Expression/CMakeFiles/2_Expression.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\code\C_and_C++\data_structure\Experiments\Lab2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/2_Expression/CMakeFiles/2_Expression.dir/calculator.cpp.obj"
-	cd /d D:\code\C_and_C++\data_structure\Experiments\Lab2\build\src\2_Expression && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/2_Expression/CMakeFiles/2_Expression.dir/calculator.cpp.obj -MF CMakeFiles\2_Expression.dir\calculator.cpp.obj.d -o CMakeFiles\2_Expression.dir\calculator.cpp.obj -c D:\code\C_and_C++\data_structure\Experiments\Lab2\src\2_Expression\calculator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\code\DataStructure-Lab\Lab2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/2_Expression/CMakeFiles/2_Expression.dir/calculator.cpp.obj"
+	cd /d D:\code\DataStructure-Lab\Lab2\build\src\2_Expression && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/2_Expression/CMakeFiles/2_Expression.dir/calculator.cpp.obj -MF CMakeFiles\2_Expression.dir\calculator.cpp.obj.d -o CMakeFiles\2_Expression.dir\calculator.cpp.obj -c D:\code\DataStructure-Lab\Lab2\src\2_Expression\calculator.cpp
 
 src/2_Expression/CMakeFiles/2_Expression.dir/calculator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/2_Expression.dir/calculator.cpp.i"
-	cd /d D:\code\C_and_C++\data_structure\Experiments\Lab2\build\src\2_Expression && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\C_and_C++\data_structure\Experiments\Lab2\src\2_Expression\calculator.cpp > CMakeFiles\2_Expression.dir\calculator.cpp.i
+	cd /d D:\code\DataStructure-Lab\Lab2\build\src\2_Expression && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\DataStructure-Lab\Lab2\src\2_Expression\calculator.cpp > CMakeFiles\2_Expression.dir\calculator.cpp.i
 
 src/2_Expression/CMakeFiles/2_Expression.dir/calculator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/2_Expression.dir/calculator.cpp.s"
-	cd /d D:\code\C_and_C++\data_structure\Experiments\Lab2\build\src\2_Expression && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\C_and_C++\data_structure\Experiments\Lab2\src\2_Expression\calculator.cpp -o CMakeFiles\2_Expression.dir\calculator.cpp.s
+	cd /d D:\code\DataStructure-Lab\Lab2\build\src\2_Expression && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\DataStructure-Lab\Lab2\src\2_Expression\calculator.cpp -o CMakeFiles\2_Expression.dir\calculator.cpp.s
 
 src/2_Expression/CMakeFiles/2_Expression.dir/main.cpp.obj: src/2_Expression/CMakeFiles/2_Expression.dir/flags.make
 src/2_Expression/CMakeFiles/2_Expression.dir/main.cpp.obj: src/2_Expression/CMakeFiles/2_Expression.dir/includes_CXX.rsp
-src/2_Expression/CMakeFiles/2_Expression.dir/main.cpp.obj: D:/code/C_and_C++/data_structure/Experiments/Lab2/src/2_Expression/main.cpp
+src/2_Expression/CMakeFiles/2_Expression.dir/main.cpp.obj: D:/code/DataStructure-Lab/Lab2/src/2_Expression/main.cpp
 src/2_Expression/CMakeFiles/2_Expression.dir/main.cpp.obj: src/2_Expression/CMakeFiles/2_Expression.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\code\C_and_C++\data_structure\Experiments\Lab2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/2_Expression/CMakeFiles/2_Expression.dir/main.cpp.obj"
-	cd /d D:\code\C_and_C++\data_structure\Experiments\Lab2\build\src\2_Expression && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/2_Expression/CMakeFiles/2_Expression.dir/main.cpp.obj -MF CMakeFiles\2_Expression.dir\main.cpp.obj.d -o CMakeFiles\2_Expression.dir\main.cpp.obj -c D:\code\C_and_C++\data_structure\Experiments\Lab2\src\2_Expression\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\code\DataStructure-Lab\Lab2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/2_Expression/CMakeFiles/2_Expression.dir/main.cpp.obj"
+	cd /d D:\code\DataStructure-Lab\Lab2\build\src\2_Expression && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/2_Expression/CMakeFiles/2_Expression.dir/main.cpp.obj -MF CMakeFiles\2_Expression.dir\main.cpp.obj.d -o CMakeFiles\2_Expression.dir\main.cpp.obj -c D:\code\DataStructure-Lab\Lab2\src\2_Expression\main.cpp
 
 src/2_Expression/CMakeFiles/2_Expression.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/2_Expression.dir/main.cpp.i"
-	cd /d D:\code\C_and_C++\data_structure\Experiments\Lab2\build\src\2_Expression && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\C_and_C++\data_structure\Experiments\Lab2\src\2_Expression\main.cpp > CMakeFiles\2_Expression.dir\main.cpp.i
+	cd /d D:\code\DataStructure-Lab\Lab2\build\src\2_Expression && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\DataStructure-Lab\Lab2\src\2_Expression\main.cpp > CMakeFiles\2_Expression.dir\main.cpp.i
 
 src/2_Expression/CMakeFiles/2_Expression.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/2_Expression.dir/main.cpp.s"
-	cd /d D:\code\C_and_C++\data_structure\Experiments\Lab2\build\src\2_Expression && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\C_and_C++\data_structure\Experiments\Lab2\src\2_Expression\main.cpp -o CMakeFiles\2_Expression.dir\main.cpp.s
+	cd /d D:\code\DataStructure-Lab\Lab2\build\src\2_Expression && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\DataStructure-Lab\Lab2\src\2_Expression\main.cpp -o CMakeFiles\2_Expression.dir\main.cpp.s
 
 # Object files for target 2_Expression
 2_Expression_OBJECTS = \
@@ -116,18 +116,18 @@ src/2_Expression/2_Expression.exe: src/structures/libstructures.a
 src/2_Expression/2_Expression.exe: src/2_Expression/CMakeFiles/2_Expression.dir/linkLibs.rsp
 src/2_Expression/2_Expression.exe: src/2_Expression/CMakeFiles/2_Expression.dir/objects1.rsp
 src/2_Expression/2_Expression.exe: src/2_Expression/CMakeFiles/2_Expression.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\code\C_and_C++\data_structure\Experiments\Lab2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable 2_Expression.exe"
-	cd /d D:\code\C_and_C++\data_structure\Experiments\Lab2\build\src\2_Expression && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\2_Expression.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\code\DataStructure-Lab\Lab2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable 2_Expression.exe"
+	cd /d D:\code\DataStructure-Lab\Lab2\build\src\2_Expression && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\2_Expression.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/2_Expression/CMakeFiles/2_Expression.dir/build: src/2_Expression/2_Expression.exe
 .PHONY : src/2_Expression/CMakeFiles/2_Expression.dir/build
 
 src/2_Expression/CMakeFiles/2_Expression.dir/clean:
-	cd /d D:\code\C_and_C++\data_structure\Experiments\Lab2\build\src\2_Expression && $(CMAKE_COMMAND) -P CMakeFiles\2_Expression.dir\cmake_clean.cmake
+	cd /d D:\code\DataStructure-Lab\Lab2\build\src\2_Expression && $(CMAKE_COMMAND) -P CMakeFiles\2_Expression.dir\cmake_clean.cmake
 .PHONY : src/2_Expression/CMakeFiles/2_Expression.dir/clean
 
 src/2_Expression/CMakeFiles/2_Expression.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\code\C_and_C++\data_structure\Experiments\Lab2 D:\code\C_and_C++\data_structure\Experiments\Lab2\src\2_Expression D:\code\C_and_C++\data_structure\Experiments\Lab2\build D:\code\C_and_C++\data_structure\Experiments\Lab2\build\src\2_Expression D:\code\C_and_C++\data_structure\Experiments\Lab2\build\src\2_Expression\CMakeFiles\2_Expression.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\code\DataStructure-Lab\Lab2 D:\code\DataStructure-Lab\Lab2\src\2_Expression D:\code\DataStructure-Lab\Lab2\build D:\code\DataStructure-Lab\Lab2\build\src\2_Expression D:\code\DataStructure-Lab\Lab2\build\src\2_Expression\CMakeFiles\2_Expression.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/2_Expression/CMakeFiles/2_Expression.dir/depend
 

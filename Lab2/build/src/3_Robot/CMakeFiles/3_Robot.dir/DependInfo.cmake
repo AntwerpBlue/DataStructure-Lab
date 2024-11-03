@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/code/C_and_C++/data_structure/Experiments/Lab2/src/3_Robot/main.cpp" "src/3_Robot/CMakeFiles/3_Robot.dir/main.cpp.obj" "gcc" "src/3_Robot/CMakeFiles/3_Robot.dir/main.cpp.obj.d"
-  "D:/code/C_and_C++/data_structure/Experiments/Lab2/src/3_Robot/walk.cpp" "src/3_Robot/CMakeFiles/3_Robot.dir/walk.cpp.obj" "gcc" "src/3_Robot/CMakeFiles/3_Robot.dir/walk.cpp.obj.d"
+  "D:/code/DataStructure-Lab/Lab2/src/3_Robot/main.cpp" "src/3_Robot/CMakeFiles/3_Robot.dir/main.cpp.obj" "gcc" "src/3_Robot/CMakeFiles/3_Robot.dir/main.cpp.obj.d"
+  "D:/code/DataStructure-Lab/Lab2/src/3_Robot/walk.cpp" "src/3_Robot/CMakeFiles/3_Robot.dir/walk.cpp.obj" "gcc" "src/3_Robot/CMakeFiles/3_Robot.dir/walk.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -11,6 +11,12 @@ class list {
             int x, y;
             int key;
         };
+        struct node{
+            data_base data;
+            node* next;
+            node():next(nullptr){}
+            node(data_base data):data(data),next(nullptr){}
+        };
     public:
         virtual ~list() = default;
         virtual void pop() = 0;

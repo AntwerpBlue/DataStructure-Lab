@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\code\C_and_C++\data_structure\Experiments\Lab2
+CMAKE_SOURCE_DIR = D:\code\DataStructure-Lab\Lab2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\code\C_and_C++\data_structure\Experiments\Lab2\build
+CMAKE_BINARY_DIR = D:\code\DataStructure-Lab\Lab2\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d D:\code\C_and_C++\data_structure\Experiments\Lab2\build && $(CMAKE_COMMAND) -E cmake_progress_start D:\code\C_and_C++\data_structure\Experiments\Lab2\build\CMakeFiles D:\code\C_and_C++\data_structure\Experiments\Lab2\build\src\structures\\CMakeFiles\progress.marks
-	cd /d D:\code\C_and_C++\data_structure\Experiments\Lab2\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/structures/all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\C_and_C++\data_structure\Experiments\Lab2\build\CMakeFiles 0
+	cd /d D:\code\DataStructure-Lab\Lab2\build && $(CMAKE_COMMAND) -E cmake_progress_start D:\code\DataStructure-Lab\Lab2\build\CMakeFiles D:\code\DataStructure-Lab\Lab2\build\src\structures\\CMakeFiles\progress.marks
+	cd /d D:\code\DataStructure-Lab\Lab2\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/structures/all
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\code\DataStructure-Lab\Lab2\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d D:\code\C_and_C++\data_structure\Experiments\Lab2\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/structures/clean
+	cd /d D:\code\DataStructure-Lab\Lab2\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/structures/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,22 +102,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d D:\code\C_and_C++\data_structure\Experiments\Lab2\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/structures/preinstall
+	cd /d D:\code\DataStructure-Lab\Lab2\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/structures/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d D:\code\C_and_C++\data_structure\Experiments\Lab2\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/structures/preinstall
+	cd /d D:\code\DataStructure-Lab\Lab2\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/structures/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d D:\code\C_and_C++\data_structure\Experiments\Lab2\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d D:\code\DataStructure-Lab\Lab2\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/structures/CMakeFiles/structures.dir/rule:
-	cd /d D:\code\C_and_C++\data_structure\Experiments\Lab2\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/structures/CMakeFiles/structures.dir/rule
+	cd /d D:\code\DataStructure-Lab\Lab2\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 src/structures/CMakeFiles/structures.dir/rule
 .PHONY : src/structures/CMakeFiles/structures.dir/rule
 
 # Convenience name for target.
@@ -126,7 +126,7 @@ structures: src/structures/CMakeFiles/structures.dir/rule
 
 # fast build rule for target.
 structures/fast:
-	cd /d D:\code\C_and_C++\data_structure\Experiments\Lab2\build && $(MAKE) $(MAKESILENT) -f src\structures\CMakeFiles\structures.dir\build.make src/structures/CMakeFiles/structures.dir/build
+	cd /d D:\code\DataStructure-Lab\Lab2\build && $(MAKE) $(MAKESILENT) -f src\structures\CMakeFiles\structures.dir\build.make src/structures/CMakeFiles/structures.dir/build
 .PHONY : structures/fast
 
 queue.obj: queue.cpp.obj
@@ -134,7 +134,7 @@ queue.obj: queue.cpp.obj
 
 # target to build an object file
 queue.cpp.obj:
-	cd /d D:\code\C_and_C++\data_structure\Experiments\Lab2\build && $(MAKE) $(MAKESILENT) -f src\structures\CMakeFiles\structures.dir\build.make src/structures/CMakeFiles/structures.dir/queue.cpp.obj
+	cd /d D:\code\DataStructure-Lab\Lab2\build && $(MAKE) $(MAKESILENT) -f src\structures\CMakeFiles\structures.dir\build.make src/structures/CMakeFiles/structures.dir/queue.cpp.obj
 .PHONY : queue.cpp.obj
 
 queue.i: queue.cpp.i
@@ -142,7 +142,7 @@ queue.i: queue.cpp.i
 
 # target to preprocess a source file
 queue.cpp.i:
-	cd /d D:\code\C_and_C++\data_structure\Experiments\Lab2\build && $(MAKE) $(MAKESILENT) -f src\structures\CMakeFiles\structures.dir\build.make src/structures/CMakeFiles/structures.dir/queue.cpp.i
+	cd /d D:\code\DataStructure-Lab\Lab2\build && $(MAKE) $(MAKESILENT) -f src\structures\CMakeFiles\structures.dir\build.make src/structures/CMakeFiles/structures.dir/queue.cpp.i
 .PHONY : queue.cpp.i
 
 queue.s: queue.cpp.s
@@ -150,7 +150,7 @@ queue.s: queue.cpp.s
 
 # target to generate assembly for a file
 queue.cpp.s:
-	cd /d D:\code\C_and_C++\data_structure\Experiments\Lab2\build && $(MAKE) $(MAKESILENT) -f src\structures\CMakeFiles\structures.dir\build.make src/structures/CMakeFiles/structures.dir/queue.cpp.s
+	cd /d D:\code\DataStructure-Lab\Lab2\build && $(MAKE) $(MAKESILENT) -f src\structures\CMakeFiles\structures.dir\build.make src/structures/CMakeFiles/structures.dir/queue.cpp.s
 .PHONY : queue.cpp.s
 
 stack.obj: stack.cpp.obj
@@ -158,7 +158,7 @@ stack.obj: stack.cpp.obj
 
 # target to build an object file
 stack.cpp.obj:
-	cd /d D:\code\C_and_C++\data_structure\Experiments\Lab2\build && $(MAKE) $(MAKESILENT) -f src\structures\CMakeFiles\structures.dir\build.make src/structures/CMakeFiles/structures.dir/stack.cpp.obj
+	cd /d D:\code\DataStructure-Lab\Lab2\build && $(MAKE) $(MAKESILENT) -f src\structures\CMakeFiles\structures.dir\build.make src/structures/CMakeFiles/structures.dir/stack.cpp.obj
 .PHONY : stack.cpp.obj
 
 stack.i: stack.cpp.i
@@ -166,7 +166,7 @@ stack.i: stack.cpp.i
 
 # target to preprocess a source file
 stack.cpp.i:
-	cd /d D:\code\C_and_C++\data_structure\Experiments\Lab2\build && $(MAKE) $(MAKESILENT) -f src\structures\CMakeFiles\structures.dir\build.make src/structures/CMakeFiles/structures.dir/stack.cpp.i
+	cd /d D:\code\DataStructure-Lab\Lab2\build && $(MAKE) $(MAKESILENT) -f src\structures\CMakeFiles\structures.dir\build.make src/structures/CMakeFiles/structures.dir/stack.cpp.i
 .PHONY : stack.cpp.i
 
 stack.s: stack.cpp.s
@@ -174,7 +174,7 @@ stack.s: stack.cpp.s
 
 # target to generate assembly for a file
 stack.cpp.s:
-	cd /d D:\code\C_and_C++\data_structure\Experiments\Lab2\build && $(MAKE) $(MAKESILENT) -f src\structures\CMakeFiles\structures.dir\build.make src/structures/CMakeFiles/structures.dir/stack.cpp.s
+	cd /d D:\code\DataStructure-Lab\Lab2\build && $(MAKE) $(MAKESILENT) -f src\structures\CMakeFiles\structures.dir\build.make src/structures/CMakeFiles/structures.dir/stack.cpp.s
 .PHONY : stack.cpp.s
 
 unordered_set.obj: unordered_set.cpp.obj
@@ -182,7 +182,7 @@ unordered_set.obj: unordered_set.cpp.obj
 
 # target to build an object file
 unordered_set.cpp.obj:
-	cd /d D:\code\C_and_C++\data_structure\Experiments\Lab2\build && $(MAKE) $(MAKESILENT) -f src\structures\CMakeFiles\structures.dir\build.make src/structures/CMakeFiles/structures.dir/unordered_set.cpp.obj
+	cd /d D:\code\DataStructure-Lab\Lab2\build && $(MAKE) $(MAKESILENT) -f src\structures\CMakeFiles\structures.dir\build.make src/structures/CMakeFiles/structures.dir/unordered_set.cpp.obj
 .PHONY : unordered_set.cpp.obj
 
 unordered_set.i: unordered_set.cpp.i
@@ -190,7 +190,7 @@ unordered_set.i: unordered_set.cpp.i
 
 # target to preprocess a source file
 unordered_set.cpp.i:
-	cd /d D:\code\C_and_C++\data_structure\Experiments\Lab2\build && $(MAKE) $(MAKESILENT) -f src\structures\CMakeFiles\structures.dir\build.make src/structures/CMakeFiles/structures.dir/unordered_set.cpp.i
+	cd /d D:\code\DataStructure-Lab\Lab2\build && $(MAKE) $(MAKESILENT) -f src\structures\CMakeFiles\structures.dir\build.make src/structures/CMakeFiles/structures.dir/unordered_set.cpp.i
 .PHONY : unordered_set.cpp.i
 
 unordered_set.s: unordered_set.cpp.s
@@ -198,7 +198,7 @@ unordered_set.s: unordered_set.cpp.s
 
 # target to generate assembly for a file
 unordered_set.cpp.s:
-	cd /d D:\code\C_and_C++\data_structure\Experiments\Lab2\build && $(MAKE) $(MAKESILENT) -f src\structures\CMakeFiles\structures.dir\build.make src/structures/CMakeFiles/structures.dir/unordered_set.cpp.s
+	cd /d D:\code\DataStructure-Lab\Lab2\build && $(MAKE) $(MAKESILENT) -f src\structures\CMakeFiles\structures.dir\build.make src/structures/CMakeFiles/structures.dir/unordered_set.cpp.s
 .PHONY : unordered_set.cpp.s
 
 # Help Target
@@ -230,6 +230,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d D:\code\C_and_C++\data_structure\Experiments\Lab2\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d D:\code\DataStructure-Lab\Lab2\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

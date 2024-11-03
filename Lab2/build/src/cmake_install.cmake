@@ -1,4 +1,4 @@
-# Install script for directory: D:/code/C_and_C++/data_structure/Experiments/Lab2/src
+# Install script for directory: D:/code/DataStructure-Lab/Lab2/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,27 +39,27 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/code/C_and_C++/data_structure/Experiments/Lab2/build/src/structures/cmake_install.cmake")
+  include("D:/code/DataStructure-Lab/Lab2/build/src/structures/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/code/C_and_C++/data_structure/Experiments/Lab2/build/src/1_Test/cmake_install.cmake")
+  include("D:/code/DataStructure-Lab/Lab2/build/src/1_Test/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/code/C_and_C++/data_structure/Experiments/Lab2/build/src/2_Expression/cmake_install.cmake")
+  include("D:/code/DataStructure-Lab/Lab2/build/src/2_Expression/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/code/C_and_C++/data_structure/Experiments/Lab2/build/src/3_Robot/cmake_install.cmake")
+  include("D:/code/DataStructure-Lab/Lab2/build/src/3_Robot/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "D:/code/C_and_C++/data_structure/Experiments/Lab2/build/src/install_local_manifest.txt"
+  file(WRITE "D:/code/DataStructure-Lab/Lab2/build/src/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

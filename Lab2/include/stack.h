@@ -10,27 +10,14 @@ class stack : public list<data_base> {
         stack() = default;
         ~stack() = default;
 
-        bool empty() override {
-            // TODO
-            return true;
-        }
-        void pop() override {
-            // TODO
-        }
-        data_base top() override {
-            // TODO
-            data_base tmp;
-            return tmp;
-        }
-        void push(data_base push_data) override {
-            // TODO
-        }
-        void clear() override {
-            // TODO
-        }
+        bool empty() override; 
+        void pop() override;
+        data_base top() override;
+        void push(data_base push_data) override;
+        void clear() override;
     private:
-        int top_index = 0;
-        data_base list_data[MAX_LINK_LIST_NUM];
+        int length = 0;
+        node<data_base> *head=nullptr;
 };
 
 }

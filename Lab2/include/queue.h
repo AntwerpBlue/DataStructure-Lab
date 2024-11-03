@@ -10,28 +10,14 @@ class queue : public list<data_base> {
         queue() = default;
         ~queue() = default;
 
-        bool empty() override {
-            // TODO
-            return true;
-        }
-        void pop() override {
-            // TODO
-        }
-        data_base top() override {
-            // TODO
-            data_base tmp;
-            return tmp;
-        }
-        void push(data_base push_data) override {
-            // TODO
-        }
-        void clear() override {
-            // TODO
-        }
+        bool empty() override; 
+        data_base top() override; 
+        void push(data_base push_data) override;
+        void pop() override;
+        void clear() override; 
     private:
-        int top_index = 0;
-        int tail_index = 0;
-        data_base list_data[MAX_LINK_LIST_NUM];
+        node<data_base> *tail = new node<data_base>;
+        node<data_base> *head = tail;
 };
 
 }
