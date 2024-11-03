@@ -1,3 +1,3 @@
 # DataStructure-Lab
 
-## Lab01-2048 game
+* Lab01-2048 game
