@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe qc libstructures.a CMakeFiles/structures.dir/queue.cpp.obj CMakeFiles/structures.dir/stack.cpp.obj CMakeFiles/structures.dir/unordered_set.cpp.obj
+C:\MinGW\bin\ranlib.exe libstructures.a
