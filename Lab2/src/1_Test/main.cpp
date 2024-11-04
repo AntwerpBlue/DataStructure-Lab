@@ -9,7 +9,7 @@
 
 int main() {
     // Initialize a practice of a class, in this case a stack or a queue
-    DATA_STRUCTURE::stack<int> p;
+    DATA_STRUCTURE::queue<int> p;
 
     // Push 0 to 9 into the structure
     int n = 10;
@@ -27,5 +27,6 @@ int main() {
         // After printing the item, pop it out
         p.pop();
     }
+    system("pause");
     return 0;
 }
