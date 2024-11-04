@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\code\DataStructure-Lab\Lab2
+CMAKE_SOURCE_DIR = D:\code\C_and_C++\data_structure\DataStructure-Lab\Lab2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\code\DataStructure-Lab\Lab2\build
+CMAKE_BINARY_DIR = D:\code\C_and_C++\data_structure\DataStructure-Lab\Lab2\build
 
 # Include any dependencies generated for this target.
 include src/structures/CMakeFiles/structures.dir/depend.make
@@ -73,48 +73,48 @@ src/structures/CMakeFiles/structures.dir/codegen:
 
 src/structures/CMakeFiles/structures.dir/queue.cpp.obj: src/structures/CMakeFiles/structures.dir/flags.make
 src/structures/CMakeFiles/structures.dir/queue.cpp.obj: src/structures/CMakeFiles/structures.dir/includes_CXX.rsp
-src/structures/CMakeFiles/structures.dir/queue.cpp.obj: D:/code/DataStructure-Lab/Lab2/src/structures/queue.cpp
+src/structures/CMakeFiles/structures.dir/queue.cpp.obj: D:/code/C_and_C++/data_structure/DataStructure-Lab/Lab2/src/structures/queue.cpp
 src/structures/CMakeFiles/structures.dir/queue.cpp.obj: src/structures/CMakeFiles/structures.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\code\DataStructure-Lab\Lab2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/structures/CMakeFiles/structures.dir/queue.cpp.obj"
-	cd /d D:\code\DataStructure-Lab\Lab2\build\src\structures && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/structures/CMakeFiles/structures.dir/queue.cpp.obj -MF CMakeFiles\structures.dir\queue.cpp.obj.d -o CMakeFiles\structures.dir\queue.cpp.obj -c D:\code\DataStructure-Lab\Lab2\src\structures\queue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\code\C_and_C++\data_structure\DataStructure-Lab\Lab2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/structures/CMakeFiles/structures.dir/queue.cpp.obj"
+	cd /d D:\code\C_and_C++\data_structure\DataStructure-Lab\Lab2\build\src\structures && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/structures/CMakeFiles/structures.dir/queue.cpp.obj -MF CMakeFiles\structures.dir\queue.cpp.obj.d -o CMakeFiles\structures.dir\queue.cpp.obj -c D:\code\C_and_C++\data_structure\DataStructure-Lab\Lab2\src\structures\queue.cpp
 
 src/structures/CMakeFiles/structures.dir/queue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/structures.dir/queue.cpp.i"
-	cd /d D:\code\DataStructure-Lab\Lab2\build\src\structures && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\DataStructure-Lab\Lab2\src\structures\queue.cpp > CMakeFiles\structures.dir\queue.cpp.i
+	cd /d D:\code\C_and_C++\data_structure\DataStructure-Lab\Lab2\build\src\structures && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\C_and_C++\data_structure\DataStructure-Lab\Lab2\src\structures\queue.cpp > CMakeFiles\structures.dir\queue.cpp.i
 
 src/structures/CMakeFiles/structures.dir/queue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/structures.dir/queue.cpp.s"
-	cd /d D:\code\DataStructure-Lab\Lab2\build\src\structures && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\DataStructure-Lab\Lab2\src\structures\queue.cpp -o CMakeFiles\structures.dir\queue.cpp.s
+	cd /d D:\code\C_and_C++\data_structure\DataStructure-Lab\Lab2\build\src\structures && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\C_and_C++\data_structure\DataStructure-Lab\Lab2\src\structures\queue.cpp -o CMakeFiles\structures.dir\queue.cpp.s
 
 src/structures/CMakeFiles/structures.dir/stack.cpp.obj: src/structures/CMakeFiles/structures.dir/flags.make
 src/structures/CMakeFiles/structures.dir/stack.cpp.obj: src/structures/CMakeFiles/structures.dir/includes_CXX.rsp
-src/structures/CMakeFiles/structures.dir/stack.cpp.obj: D:/code/DataStructure-Lab/Lab2/src/structures/stack.cpp
+src/structures/CMakeFiles/structures.dir/stack.cpp.obj: D:/code/C_and_C++/data_structure/DataStructure-Lab/Lab2/src/structures/stack.cpp
 src/structures/CMakeFiles/structures.dir/stack.cpp.obj: src/structures/CMakeFiles/structures.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\code\DataStructure-Lab\Lab2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/structures/CMakeFiles/structures.dir/stack.cpp.obj"
-	cd /d D:\code\DataStructure-Lab\Lab2\build\src\structures && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/structures/CMakeFiles/structures.dir/stack.cpp.obj -MF CMakeFiles\structures.dir\stack.cpp.obj.d -o CMakeFiles\structures.dir\stack.cpp.obj -c D:\code\DataStructure-Lab\Lab2\src\structures\stack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\code\C_and_C++\data_structure\DataStructure-Lab\Lab2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/structures/CMakeFiles/structures.dir/stack.cpp.obj"
+	cd /d D:\code\C_and_C++\data_structure\DataStructure-Lab\Lab2\build\src\structures && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/structures/CMakeFiles/structures.dir/stack.cpp.obj -MF CMakeFiles\structures.dir\stack.cpp.obj.d -o CMakeFiles\structures.dir\stack.cpp.obj -c D:\code\C_and_C++\data_structure\DataStructure-Lab\Lab2\src\structures\stack.cpp
 
 src/structures/CMakeFiles/structures.dir/stack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/structures.dir/stack.cpp.i"
-	cd /d D:\code\DataStructure-Lab\Lab2\build\src\structures && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\DataStructure-Lab\Lab2\src\structures\stack.cpp > CMakeFiles\structures.dir\stack.cpp.i
+	cd /d D:\code\C_and_C++\data_structure\DataStructure-Lab\Lab2\build\src\structures && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\C_and_C++\data_structure\DataStructure-Lab\Lab2\src\structures\stack.cpp > CMakeFiles\structures.dir\stack.cpp.i
 
 src/structures/CMakeFiles/structures.dir/stack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/structures.dir/stack.cpp.s"
-	cd /d D:\code\DataStructure-Lab\Lab2\build\src\structures && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\DataStructure-Lab\Lab2\src\structures\stack.cpp -o CMakeFiles\structures.dir\stack.cpp.s
+	cd /d D:\code\C_and_C++\data_structure\DataStructure-Lab\Lab2\build\src\structures && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\C_and_C++\data_structure\DataStructure-Lab\Lab2\src\structures\stack.cpp -o CMakeFiles\structures.dir\stack.cpp.s
 
 src/structures/CMakeFiles/structures.dir/unordered_set.cpp.obj: src/structures/CMakeFiles/structures.dir/flags.make
 src/structures/CMakeFiles/structures.dir/unordered_set.cpp.obj: src/structures/CMakeFiles/structures.dir/includes_CXX.rsp
-src/structures/CMakeFiles/structures.dir/unordered_set.cpp.obj: D:/code/DataStructure-Lab/Lab2/src/structures/unordered_set.cpp
+src/structures/CMakeFiles/structures.dir/unordered_set.cpp.obj: D:/code/C_and_C++/data_structure/DataStructure-Lab/Lab2/src/structures/unordered_set.cpp
 src/structures/CMakeFiles/structures.dir/unordered_set.cpp.obj: src/structures/CMakeFiles/structures.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\code\DataStructure-Lab\Lab2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/structures/CMakeFiles/structures.dir/unordered_set.cpp.obj"
-	cd /d D:\code\DataStructure-Lab\Lab2\build\src\structures && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/structures/CMakeFiles/structures.dir/unordered_set.cpp.obj -MF CMakeFiles\structures.dir\unordered_set.cpp.obj.d -o CMakeFiles\structures.dir\unordered_set.cpp.obj -c D:\code\DataStructure-Lab\Lab2\src\structures\unordered_set.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\code\C_and_C++\data_structure\DataStructure-Lab\Lab2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/structures/CMakeFiles/structures.dir/unordered_set.cpp.obj"
+	cd /d D:\code\C_and_C++\data_structure\DataStructure-Lab\Lab2\build\src\structures && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/structures/CMakeFiles/structures.dir/unordered_set.cpp.obj -MF CMakeFiles\structures.dir\unordered_set.cpp.obj.d -o CMakeFiles\structures.dir\unordered_set.cpp.obj -c D:\code\C_and_C++\data_structure\DataStructure-Lab\Lab2\src\structures\unordered_set.cpp
 
 src/structures/CMakeFiles/structures.dir/unordered_set.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/structures.dir/unordered_set.cpp.i"
-	cd /d D:\code\DataStructure-Lab\Lab2\build\src\structures && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\DataStructure-Lab\Lab2\src\structures\unordered_set.cpp > CMakeFiles\structures.dir\unordered_set.cpp.i
+	cd /d D:\code\C_and_C++\data_structure\DataStructure-Lab\Lab2\build\src\structures && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\C_and_C++\data_structure\DataStructure-Lab\Lab2\src\structures\unordered_set.cpp > CMakeFiles\structures.dir\unordered_set.cpp.i
 
 src/structures/CMakeFiles/structures.dir/unordered_set.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/structures.dir/unordered_set.cpp.s"
-	cd /d D:\code\DataStructure-Lab\Lab2\build\src\structures && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\DataStructure-Lab\Lab2\src\structures\unordered_set.cpp -o CMakeFiles\structures.dir\unordered_set.cpp.s
+	cd /d D:\code\C_and_C++\data_structure\DataStructure-Lab\Lab2\build\src\structures && C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\C_and_C++\data_structure\DataStructure-Lab\Lab2\src\structures\unordered_set.cpp -o CMakeFiles\structures.dir\unordered_set.cpp.s
 
 # Object files for target structures
 structures_OBJECTS = \
@@ -130,19 +130,19 @@ src/structures/libstructures.a: src/structures/CMakeFiles/structures.dir/stack.c
 src/structures/libstructures.a: src/structures/CMakeFiles/structures.dir/unordered_set.cpp.obj
 src/structures/libstructures.a: src/structures/CMakeFiles/structures.dir/build.make
 src/structures/libstructures.a: src/structures/CMakeFiles/structures.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\code\DataStructure-Lab\Lab2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libstructures.a"
-	cd /d D:\code\DataStructure-Lab\Lab2\build\src\structures && $(CMAKE_COMMAND) -P CMakeFiles\structures.dir\cmake_clean_target.cmake
-	cd /d D:\code\DataStructure-Lab\Lab2\build\src\structures && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\structures.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\code\C_and_C++\data_structure\DataStructure-Lab\Lab2\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libstructures.a"
+	cd /d D:\code\C_and_C++\data_structure\DataStructure-Lab\Lab2\build\src\structures && $(CMAKE_COMMAND) -P CMakeFiles\structures.dir\cmake_clean_target.cmake
+	cd /d D:\code\C_and_C++\data_structure\DataStructure-Lab\Lab2\build\src\structures && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\structures.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/structures/CMakeFiles/structures.dir/build: src/structures/libstructures.a
 .PHONY : src/structures/CMakeFiles/structures.dir/build
 
 src/structures/CMakeFiles/structures.dir/clean:
-	cd /d D:\code\DataStructure-Lab\Lab2\build\src\structures && $(CMAKE_COMMAND) -P CMakeFiles\structures.dir\cmake_clean.cmake
+	cd /d D:\code\C_and_C++\data_structure\DataStructure-Lab\Lab2\build\src\structures && $(CMAKE_COMMAND) -P CMakeFiles\structures.dir\cmake_clean.cmake
 .PHONY : src/structures/CMakeFiles/structures.dir/clean
 
 src/structures/CMakeFiles/structures.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\code\DataStructure-Lab\Lab2 D:\code\DataStructure-Lab\Lab2\src\structures D:\code\DataStructure-Lab\Lab2\build D:\code\DataStructure-Lab\Lab2\build\src\structures D:\code\DataStructure-Lab\Lab2\build\src\structures\CMakeFiles\structures.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\code\C_and_C++\data_structure\DataStructure-Lab\Lab2 D:\code\C_and_C++\data_structure\DataStructure-Lab\Lab2\src\structures D:\code\C_and_C++\data_structure\DataStructure-Lab\Lab2\build D:\code\C_and_C++\data_structure\DataStructure-Lab\Lab2\build\src\structures D:\code\C_and_C++\data_structure\DataStructure-Lab\Lab2\build\src\structures\CMakeFiles\structures.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/structures/CMakeFiles/structures.dir/depend
 

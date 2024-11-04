@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/code/DataStructure-Lab/Lab2/src/2_Expression/calculator.cpp" "src/2_Expression/CMakeFiles/2_Expression.dir/calculator.cpp.obj" "gcc" "src/2_Expression/CMakeFiles/2_Expression.dir/calculator.cpp.obj.d"
-  "D:/code/DataStructure-Lab/Lab2/src/2_Expression/main.cpp" "src/2_Expression/CMakeFiles/2_Expression.dir/main.cpp.obj" "gcc" "src/2_Expression/CMakeFiles/2_Expression.dir/main.cpp.obj.d"
+  "D:/code/C_and_C++/data_structure/DataStructure-Lab/Lab2/src/2_Expression/calculator.cpp" "src/2_Expression/CMakeFiles/2_Expression.dir/calculator.cpp.obj" "gcc" "src/2_Expression/CMakeFiles/2_Expression.dir/calculator.cpp.obj.d"
+  "D:/code/C_and_C++/data_structure/DataStructure-Lab/Lab2/src/2_Expression/main.cpp" "src/2_Expression/CMakeFiles/2_Expression.dir/main.cpp.obj" "gcc" "src/2_Expression/CMakeFiles/2_Expression.dir/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

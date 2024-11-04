@@ -1,4 +1,4 @@
-# Install script for directory: D:/code/DataStructure-Lab/Lab2/src/1_Test
+# Install script for directory: D:/code/C_and_C++/data_structure/DataStructure-Lab/Lab2/src/1_Test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,6 +40,6 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "D:/code/DataStructure-Lab/Lab2/build/src/1_Test/install_local_manifest.txt"
+  file(WRITE "D:/code/C_and_C++/data_structure/DataStructure-Lab/Lab2/build/src/1_Test/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
