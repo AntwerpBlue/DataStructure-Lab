@@ -25,6 +25,11 @@ class walk {
         int* gold_value;
         int steps = 0;
 
+
+        int distances[100][100]= {0};
+        void buildgraph();
+        int get_subvalue(int begin, bool* visited);
+
         struct element {
             int steps;
             int value;
@@ -33,7 +38,7 @@ class walk {
         };
         queue<struct element> q;
 
-        int compute_distance(int i, int x, int y);
+        int compute_distance(int x1, int y1, int x2, int y2);
 };
 
 }
