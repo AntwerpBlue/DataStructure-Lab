@@ -145,7 +145,7 @@ int priority(char c1, char c2) {
 }
 
 struct calculator::element calculator::get_ans() {
-    // TODO
+    // DONE
     stack<element> values;
     stack<char> opts;
     for(auto it:expr){
@@ -181,7 +181,13 @@ struct calculator::element calculator::get_ans() {
             opts.push(it);
         }
     }
-    return {0, 0, 0};
+    while(!opts.empty()){
+        auto val2=values.top();values.pop();
+        auto val1=values.top();values.pop();
+        char opt=opts.top();opts.pop(); 
+        values.push(operate(val1,opt,val2));
+    }
+    return values.top();
 }
 
 }
