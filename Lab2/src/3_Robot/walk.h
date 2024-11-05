@@ -1,6 +1,8 @@
 #include <iostream>
 #include <math.h>
 
+#include <map>
+#include <algorithm>
 #include "queue.h"
 #include "unordered_set.h"
 
@@ -28,7 +30,7 @@ class walk {
 
         int distances[100][100]= {0};
         void buildgraph();
-        int get_subvalue(int begin, bool* visited);
+        int get_subvalue(bool* visited, int stepleft, int cur);
 
         struct element {
             int steps;

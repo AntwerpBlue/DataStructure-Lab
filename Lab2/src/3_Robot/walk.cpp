@@ -32,23 +32,20 @@ void walk::buildgraph(){
     }
 }
 
-int walk::get_subvalue(int begin,bool* visited){
+int walk::get_subvalue(bool* visited, int stepleft, int cur){
     int max_value=0;
-    int cur=-1;
-    for(int i=1;i<=gold_num;i++){
-        if(!visited[i]&&distances[begin][i]>0){
-            int cur_value=get_subvalue(i,visited);
-            if(cur_value>max_value){
-                cur=i;
-                max_value=cur_value;
+    int cur_value=0;
+    int cur_node=-1;
+    for(int it=1;it<=gold_num;it++){
+        if(!visited[it]&&distances[cur][it]<=stepleft){
+            visited[it]=true;
+            cur_value=get_subvalue(visited,stepleft-distances[cur][it],it);
+            visited[it]=false;
+            if(cur_value+*(gold_value+it-1)>max_value){
+                max_value=cur_value+*(gold_value+it-1);
+                cur_node=it;
             }
         }
-    }
-    if(cur!=-1){
-        visited[cur]=true;
-    }
-    else{
-        max_value+=gold_value[cur];
     }
     return max_value;
 }
@@ -56,8 +53,8 @@ int walk::get_subvalue(int begin,bool* visited){
 int walk::get_value() {
     bool visited[100]={false};
     int max_value = 0;
-
-    // TODO
+    max_value = get_subvalue(visited, steps, 0);
+    // DONE
     return max_value;
 }
 
