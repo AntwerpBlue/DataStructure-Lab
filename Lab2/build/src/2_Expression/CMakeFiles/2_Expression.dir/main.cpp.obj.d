@@ -104,4 +104,5 @@ src/2_Expression/CMakeFiles/2_Expression.dir/main.cpp.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\math.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\c++\cmath c:\mingw\include\math.h \
  D:/code/C_and_C++/data_structure/DataStructure-Lab/Lab2/include/stack.h \
- D:/code/C_and_C++/data_structure/DataStructure-Lab/Lab2/include/list.h
+ D:/code/C_and_C++/data_structure/DataStructure-Lab/Lab2/include/list.h \
+ D:/code/C_and_C++/data_structure/DataStructure-Lab/Lab2/include/queue.h

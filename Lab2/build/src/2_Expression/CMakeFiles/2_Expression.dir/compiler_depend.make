@@ -3,6 +3,7 @@
 
 src/2_Expression/CMakeFiles/2_Expression.dir/calculator.cpp.obj: D:/code/C_and_C++/data_structure/DataStructure-Lab/Lab2/src/2_Expression/calculator.cpp \
   D:/code/C_and_C++/data_structure/DataStructure-Lab/Lab2/include/list.h \
+  D:/code/C_and_C++/data_structure/DataStructure-Lab/Lab2/include/queue.h \
   D:/code/C_and_C++/data_structure/DataStructure-Lab/Lab2/include/stack.h \
   D:/code/C_and_C++/data_structure/DataStructure-Lab/Lab2/src/2_Expression/calculator.h \
   C:/MinGW/include/_mingw.h \
@@ -93,6 +94,7 @@ src/2_Expression/CMakeFiles/2_Expression.dir/calculator.cpp.obj: D:/code/C_and_C
 
 src/2_Expression/CMakeFiles/2_Expression.dir/main.cpp.obj: D:/code/C_and_C++/data_structure/DataStructure-Lab/Lab2/src/2_Expression/main.cpp \
   D:/code/C_and_C++/data_structure/DataStructure-Lab/Lab2/include/list.h \
+  D:/code/C_and_C++/data_structure/DataStructure-Lab/Lab2/include/queue.h \
   D:/code/C_and_C++/data_structure/DataStructure-Lab/Lab2/include/stack.h \
   D:/code/C_and_C++/data_structure/DataStructure-Lab/Lab2/src/2_Expression/calculator.h \
   C:/MinGW/include/_mingw.h \
@@ -221,6 +223,8 @@ C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/cpp_type_traits.h:
 D:/code/C_and_C++/data_structure/DataStructure-Lab/Lab2/src/2_Expression/calculator.h:
 
 D:/code/C_and_C++/data_structure/DataStructure-Lab/Lab2/include/list.h:
+
+D:/code/C_and_C++/data_structure/DataStructure-Lab/Lab2/include/queue.h:
 
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/ios:
 

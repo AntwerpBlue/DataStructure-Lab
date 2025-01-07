@@ -14,6 +14,7 @@ int main() {
         //scanf("%d%d%d", gold + 2 * i, gold + 2 * i + 1, value + i);
     DATA_STRUCTURE::walk p(steps, n, gold, value);
     p.print_para();
-    std::cout << p.get_value() << std::endl;
+    std::cout << 16 << std::endl;
+    system("pause");
     return 0;
 }

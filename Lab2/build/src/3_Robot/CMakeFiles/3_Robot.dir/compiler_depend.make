@@ -26,7 +26,10 @@ src/3_Robot/CMakeFiles/3_Robot.dir/main.cpp.obj: D:/code/C_and_C++/data_structur
   C:/MinGW/include/w32api.h \
   C:/MinGW/include/wchar.h \
   C:/MinGW/include/wctype.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/algorithm \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/array \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/backward/binders.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/algorithmfwd.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/alloc_traits.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/allocator.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/atomic_lockfree_defines.h \
@@ -59,15 +62,25 @@ src/3_Robot/CMakeFiles/3_Robot.dir/main.cpp.obj: D:/code/C_and_C++/data_structur
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/predefined_ops.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/ptr_traits.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/range_access.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_algo.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_algobase.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_construct.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_function.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_heap.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_funcs.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_types.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_map.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_multimap.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_pair.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_relops.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_tempbuf.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_tree.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/streambuf.tcc \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/streambuf_iterator.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stringfwd.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/uniform_int_dist.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/uses_allocator.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/cctype \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/cerrno \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/clocale \
@@ -80,6 +93,7 @@ src/3_Robot/CMakeFiles/3_Robot.dir/main.cpp.obj: D:/code/C_and_C++/data_structur
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/debug/assertions.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/debug/debug.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/exception \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/ext/aligned_buffer.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/ext/alloc_traits.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/ext/atomicity.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/ext/new_allocator.h \
@@ -91,6 +105,8 @@ src/3_Robot/CMakeFiles/3_Robot.dir/main.cpp.obj: D:/code/C_and_C++/data_structur
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/iosfwd \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/iostream \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/istream \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/limits \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/map \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/math.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/atomic_word.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++allocator.h \
@@ -109,7 +125,9 @@ src/3_Robot/CMakeFiles/3_Robot.dir/main.cpp.obj: D:/code/C_and_C++/data_structur
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/streambuf \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/string \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/system_error \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/tuple \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/type_traits \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/utility \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdarg.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdint.h
@@ -139,7 +157,10 @@ src/3_Robot/CMakeFiles/3_Robot.dir/walk.cpp.obj: D:/code/C_and_C++/data_structur
   C:/MinGW/include/w32api.h \
   C:/MinGW/include/wchar.h \
   C:/MinGW/include/wctype.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/algorithm \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/array \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/backward/binders.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/algorithmfwd.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/alloc_traits.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/allocator.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/atomic_lockfree_defines.h \
@@ -172,15 +193,25 @@ src/3_Robot/CMakeFiles/3_Robot.dir/walk.cpp.obj: D:/code/C_and_C++/data_structur
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/predefined_ops.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/ptr_traits.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/range_access.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_algo.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_algobase.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_construct.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_function.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_heap.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_funcs.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_types.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_map.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_multimap.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_pair.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_relops.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_tempbuf.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_tree.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/streambuf.tcc \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/streambuf_iterator.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stringfwd.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/uniform_int_dist.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/uses_allocator.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/cctype \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/cerrno \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/clocale \
@@ -193,6 +224,7 @@ src/3_Robot/CMakeFiles/3_Robot.dir/walk.cpp.obj: D:/code/C_and_C++/data_structur
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/debug/assertions.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/debug/debug.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/exception \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/ext/aligned_buffer.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/ext/alloc_traits.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/ext/atomicity.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/ext/new_allocator.h \
@@ -204,6 +236,8 @@ src/3_Robot/CMakeFiles/3_Robot.dir/walk.cpp.obj: D:/code/C_and_C++/data_structur
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/iosfwd \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/iostream \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/istream \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/limits \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/map \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/math.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/atomic_word.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++allocator.h \
@@ -222,7 +256,9 @@ src/3_Robot/CMakeFiles/3_Robot.dir/walk.cpp.obj: D:/code/C_and_C++/data_structur
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/streambuf \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/string \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/system_error \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/tuple \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/type_traits \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/utility \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdarg.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdint.h
@@ -248,6 +284,10 @@ D:/code/C_and_C++/data_structure/DataStructure-Lab/Lab2/include/unordered_set.h:
 
 D:/code/C_and_C++/data_structure/DataStructure-Lab/Lab2/include/queue.h:
 
+C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/atomic_word.h:
+
+C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/algorithm:
+
 C:/MinGW/include/_mingw.h:
 
 C:/MinGW/include/ctype.h:
@@ -259,6 +299,8 @@ C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/cpu_defines.h:
 C:/MinGW/include/errno.h:
 
 C:/MinGW/include/io.h:
+
+C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_construct.h:
 
 C:/MinGW/include/math.h:
 
@@ -273,8 +315,6 @@ C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++allocator.h:
 C:/MinGW/include/wchar.h:
 
 C:/MinGW/include/process.h:
-
-C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/streambuf.tcc:
 
 C:/MinGW/include/sdkddkver.h:
 
@@ -292,17 +332,23 @@ C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/ostream_insert.h:
 
 C:/MinGW/include/sys/stat.h:
 
-C:/MinGW/include/time.h:
-
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_pair.h:
+
+C:/MinGW/include/time.h:
 
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/ctype_base.h:
 
 C:/MinGW/include/w32api.h:
 
+C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/array:
+
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/range_access.h:
 
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/backward/binders.h:
+
+C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/functional_hash.h:
+
+C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/algorithmfwd.h:
 
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/alloc_traits.h:
 
@@ -330,15 +376,9 @@ C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/ios_base.h:
 
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/concept_check.h:
 
-C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_funcs.h:
-
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/exception_ptr.h:
 
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/functexcept.h:
-
-C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_types.h:
-
-C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/functional_hash.h:
 
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdarg.h:
 
@@ -362,17 +402,41 @@ C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/nested_exception.h:
 
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/postypes.h:
 
+C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_algo.h:
+
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/ext/string_conversions.h:
 
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_algobase.h:
 
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_function.h:
 
+C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_heap.h:
+
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator.h:
+
+C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_funcs.h:
+
+C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_iterator_base_types.h:
+
+C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_map.h:
+
+C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_multimap.h:
+
+C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_relops.h:
+
+C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_tempbuf.h:
+
+C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stl_tree.h:
+
+C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/streambuf.tcc:
 
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/streambuf_iterator.h:
 
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/stringfwd.h:
+
+C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/uniform_int_dist.h:
+
+C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/bits/uses_allocator.h:
 
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/cctype:
 
@@ -398,6 +462,8 @@ C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/debug/assertions.h:
 
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/exception:
 
+C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/ext/aligned_buffer.h:
+
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/istream:
 
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/ext/alloc_traits.h:
@@ -416,7 +482,9 @@ C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/iosfwd:
 
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/iostream:
 
-C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/atomic_word.h:
+C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/limits:
+
+C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/map:
 
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/mingw32/bits/c++config.h:
 
@@ -446,7 +514,11 @@ C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/string:
 
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/system_error:
 
+C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/tuple:
+
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/type_traits:
+
+C:/MinGW/lib/gcc/mingw32/6.3.0/include/c++/utility:
 
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h:
 

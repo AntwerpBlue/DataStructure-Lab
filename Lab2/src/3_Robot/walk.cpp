@@ -53,6 +53,7 @@ int walk::get_subvalue(bool* visited, int stepleft, int cur){
 int walk::get_value() {
     bool visited[100]={false};
     int max_value = 0;
+    visited[0]=true;
     max_value = get_subvalue(visited, steps, 0);
     // DONE
     return max_value;

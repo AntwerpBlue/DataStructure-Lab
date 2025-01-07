@@ -134,13 +134,13 @@ struct calculator::element calculator::operate(struct calculator::element elemen
     }
 }
 
-int priority_regular(char c){
+int calculator::priority_regular(char c){
     if(c=='^')return 3;
     if(c=='*'||c=='/')return 2;
     if(c=='+'||c=='-')return 1;
 }
 
-int priority(char c1, char c2) {
+int calculator::priority(char c1, char c2) {
     return priority_regular(c1)-priority_regular(c2);
 }
 
