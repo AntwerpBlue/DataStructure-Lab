@@ -1,7 +1,5 @@
 # DataStructure-Lab
 
-## Description
-
 This repository is for the Lab in the course of DataStructre in 2024 fall semester of USTC.
 
 ## Lab List
